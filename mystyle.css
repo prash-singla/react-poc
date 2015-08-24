@@ -1,0 +1,148 @@
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+ -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+
+}
+
+.filter-tags {
+	width: 20%;
+  float: left;
+  position: relative;
+  padding: 0 10px;
+  box-sizing: border-box;
+ -moz-box-sizing: border-box; /* Firefox */
+ -webkit-box-sizing: border-box; /* Safari */
+
+}
+
+.folder {
+	margin: 0 0 16px 0;
+	display: block;
+
+}
+
+.facet {
+	padding: 7px 0 7px 8px;
+	display: block;
+}
+
+.filter-tags .folder .facets {
+	max-height: 255px;
+	overflow: auto;
+}
+
+.filter-results {
+	width: 80%;
+	float: left;
+  position: relative;
+  padding: 0 10px;
+  box-sizing:border-box;
+ -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+
+}
+.filter-result {
+	position: relative;
+  float: left;
+  border: 1px solid #efefef;
+  border-top: 0;
+  border-left: none;
+  height: 350px;
+  padding: 10px;
+  width: 25%;
+  box-sizing:border-box;
+ -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+
+}
+.result-row {
+	 border-left: 1px solid #efefef;
+}
+.result-img {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0 0 0;
+  line-height: 200px;
+}
+.result-score {
+	float: right;
+}
+.result-price-block {
+  min-height: 45px;
+  font-size: 11px;
+  color: #636363;
+  float: left;
+  margin-top: 3px;
+}
+i.points-vhigh {
+  background-position: -2px -5px;
+}
+i.biqpoints {
+  background: url("http://biqcdn.com.s3.amazonaws.com/s/www/img/iq-sprite.e14c0d1abf2f.png") no-repeat;
+  width: 52px;
+  height: 52px;
+  display: block;
+  z-index: 10;
+}
+.filter-biq {
+  position: absolute;
+  top: 5px;
+  left: 35px;
+}
+i {
+  font-style: normal;
+}
+.filter-biq span {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+img {
+  vertical-align: middle;
+}
+
+.filter-results-head {
+  background-color: #efefef;
+  color: #2f2f2f;
+  width: 100%;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.filter-results-head .right {
+  width: 50%;
+  text-align: right;
+  float: left;
+  position: relative;
+  box-sizing:border-box;
+ -moz-box-sizing:border-box; /* Firefox */
+ -webkit-box-sizing:border-box; /* Safari */
+}
+
+.meta {
+  width: 50%;
+  float: left;
+  position: relative;
+  background-color: inherit;
+}
+
+.load-bar {
+  background-color: #eee;
+  text-align: center;
+  line-height: 17px;
+  min-height: 17px;
+  padding: 8px 0;
+  cursor: pointer;
+}

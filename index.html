@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phones in India</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script src="build/jquery-1.11.3.js"></script>
+	<script src="build/react.js"></script>
+</head>
+<body>
+	<div id="mobiles-page">
+		<div class="clear-both"></div>
+	</div>
+</body>
+<script src="build/mobiles.js"></script>
+<script src="build/body.js"></script>
+<script src="build/result-page.js"></script>
+<script src="build/product.js"></script>
+<script src="build/facet.js"></script>
+<script src="build/folder.js"></script>
+<script src="build/filter-bar.js"></script>
+<script type="text/javascript">
+	document.getElementById('search-result-filters')
+
+	React.render(
+  React.createElement(Mobiles, {folders: []}),
+  document.getElementById('mobiles-page')
+);
+</script>
+</html>
+
